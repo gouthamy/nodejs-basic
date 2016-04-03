@@ -4,7 +4,7 @@
   "description": "Basic node js project with mocha chai",
   "main": "index.js",
   "scripts": {
-    "start"  : "node index.js",
+    "start": "node index.js",
     "test": "mocha"
   },
   "repository": {
@@ -22,8 +22,11 @@
   },
   "homepage": "https://github.com/gouthamy/nodejs-basic#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "chai": "^3.5.0",
     "express": "^4.13.4",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "mongoose": "^4.4.10",
+    "morgan": "^1.7.0"
   }
 }
